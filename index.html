@@ -43,7 +43,7 @@
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
           <i class="fa fa-bars"></i>
         </button>
-        <a href="./"><img src="images/logo-text.png" class="logo-pos"></a>
+        <a href="./"><div class="logo-pos"><img src="images/logo-text.png"></div></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -229,7 +229,8 @@
             </p><!-- /.section-description -->
           </div><!-- /.section-top -->
 
-          <div>Age group : 5 – 9 years</div><div class="section-details">
+          <div class="section-details"><div class= "progress-bar" role="progressbar" style="width:100%;">Age Group : 5 – 9 years</div>
+          <div class ="section-details"></div>
             <div class="service-details">
               <div class="col-md-3 col-sm-6">
                 <div class="item wow animated fadeInLeft" data-wow-delay=".5s">
@@ -267,7 +268,7 @@
                   <div class="item-details">
                     <h4 class="item-title">Aerospace Engineering</h4><!-- /.item-title -->
                     <p class="item-description">
-                      Understanding of science behind various flying machines and model creation of rockets, aeroplanes, hot air balloons, parachutes etc.
+                      Understanding of science behind various flying machines and model creation of rockets, aeroplanes, hot air balloons, parachutes etc.<br><br><br><br>
                     </p><!-- /.item-description -->
                   </div><!-- /.item-details -->
                 </div><!-- /.item -->
@@ -276,7 +277,8 @@
 
             </div><!-- /.service-details -->
             </div><!-- /.section-details --> 
-            Age group : 9 – 14 years<div class="section-details">
+            <div class="section-details"><div class= "progress-bar" role="progressbar" style="width:100%;">Age Group : 9 – 14 years</div>
+            <div class ="section-details"></div>
             <div class="service-details">           
               <div class="col-md-3 col-sm-6">
                 <div class="item wow animated fadeInLeft" data-wow-delay=".5s">
@@ -286,7 +288,7 @@
                   <div class="item-details">
                     <h4 class="item-title"> Software Engineering</h4><!-- /.item-title -->
                     <p class="item-description">
-                      Understanding of concept with hands-on session following code.org curriculum. Students will learn about binary system, computational thinking, algorithm, loop, conditional thinking, functions, bugs and debugging in a fun and interactive way while working on Scratch/Blockly.
+                      Understanding of concept with hands-on session following code.org curriculum. Students will learn about binary system, computational thinking, algorithm, loop, conditional thinking, functions, bugs and debugging in a fun and interactive way while working on Scratch/Blockly. <br><br>
                     </p><!-- /.item-description -->
                   </div><!-- /.item-details -->
                 </div><!-- /.item -->
@@ -298,10 +300,9 @@
                     <i class="fa fa-mobile"></i>
                   </div><!-- /.item-icon -->
                   <div class="item-details">
-                    <h4 class="item-title">Mobile Application designing</h4><!-- /.item-title -->
+                    <h4 class="item-title">Mobile App Designing</h4><!-- /.item-title -->
                     <p class="item-description">
-                      ​Students will be learning on basic concepts behind mobile application creation while starting with a simple game creation along with physical activities, which makes learning both fun and educational. Students will take back the developed android application at the end of the class. Students will take back the developed course at the end of the class.
-
+                      ​Students will learn the basic concepts behind mobile application development by starting with a simple game creation along with physical activities, which makes learning both fun and educational. Students will take back the developed Android application and course material at the end of the class.
                     </p><!-- /.item-description -->
                   </div><!-- /.item-details -->
                 </div><!-- /.item -->
@@ -484,8 +485,8 @@
               <h2 class="section-title"><span>Our</span> Clients</h2><!-- /.section-title -->
 
               <div class="section-details">
-                <div class="sponsors-logo">
-                  <div class="col-sm-3 col-xs-6">
+                <div class="sponsors-logo"><h2 class="section-title"><span></span> Coming Soon....</h2>
+                  <!--<div class="col-sm-3 col-xs-6">
                     <a href="#"><img src="images/sponsors/1.png" alt="Client Logo"></a>
                   </div>
                   <div class="col-sm-3 col-xs-6">
@@ -497,7 +498,7 @@
                   <div class="col-sm-3 col-xs-6">
                     <a href="#"><img src="images/sponsors/4.png" alt="Client Logo"></a>
                   </div>
-                </div><!-- /.sponsors-logo -->
+                </div>--><!-- /.sponsors-logo -->
               </div><!-- /.section-details -->
             </div>
           </div><!-- /.row -->
@@ -641,9 +642,7 @@
 
   <section id="contact" class="contact">
     <div class="contact-inner">
-      <div id="google-map" class="google-map">
-        <div id="googleMaps" class="google-map-container"></div>
-      </div><!-- /#google-map -->
+      <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:450px;width:900px;'><div id='gmap_canvas' style='height:450px;width:900px;'></div><div><small><a href="http://embedgooglemaps.com">                 embed google maps             </a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">link directories</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:11,center:new google.maps.LatLng(28.3754567,76.90668289999996),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(28.3754567,76.90668289999996)});infowindow = new google.maps.InfoWindow({content:'<strong>Embryonic Engineers</strong><br>IMT Manesar, Haryana<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 
       <div class="form-area text-center wow animated fadeInRight" data-wow-delay=".75s">
         <h2 class="section-title"><span>Contact</span> With Us</h2><!-- /.section-title -->
