@@ -1139,17 +1139,17 @@ footer {
 .footer-social .section-padding {
     padding: 60px 0px;
 }
-.footer-social .col-xs-4 {
+.footer-social .col-xs-6 {
     color: #ffffff;
     padding: 0px;
 }
-.footer-social .col-xs-4:first-child {
+.footer-social .col-xs-6:first-child {
     background-color: #3b5998;
 }
-.footer-social .col-xs-4:nth-child(2) {
+.footer-social .col-xs-6:nth-child(2) {
     background-color: #00bdec;
 }
-.footer-social .col-xs-4:nth-child(3) {
+.footer-social .col-xs-6:nth-child(3) {
     background-color: #e45c8f;
 }
 .footer-social .social-icon {
