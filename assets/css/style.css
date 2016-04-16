@@ -192,9 +192,7 @@ button:focus {
     margin: 0px;
     z-index: 99999;
 }
-.navbar-brand {
-    padding-top: 20px;
-}
+
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.active>a:hover,
@@ -373,6 +371,12 @@ button:focus {
     background: url(../../images/sc.jpg) no-repeat center center fixed;  /*background/st.gif */
     background-size: cover;
     color: #ffffff;
+}
+.intro-section {
+    background: url(../../images/homepage.png) no-repeat center bottom fixed;  /*background/st.gif */
+    background-size: cover;
+    color: #ffffff;
+    height:250px;
 }
 
 .knowMore-section .section-description {
@@ -1345,4 +1349,8 @@ footer .widget-title {
 }
 .read-more{
     color: #e74c3c;
+}
+.logo-pos{
+    height:150px;
+    width:300px;
 }
