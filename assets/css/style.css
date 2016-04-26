@@ -369,7 +369,7 @@ button:focus {
 /* 6 ------- Subscribe Section Styles ---------*/
 
 .knowMore-section {
-    background: url(../../images/sc.jpg) no-repeat center center fixed;  /*background/st.gif */
+    background: url(../../images/background/sc.jpg) no-repeat center center fixed;  /*background/st.gif */
     background-size: cover;
     color: #ffffff;
 }
@@ -386,7 +386,7 @@ button:focus {
 }
 
 .subscribe-section {
-    background: url(../../images/teach.jpg) no-repeat center center fixed;  /*background/st.gif */
+    background: url(../../images/background/teach.jpg) no-repeat center center fixed;  /*background/st.gif */
     background-size: cover;
     color: #ffffff;
 }
