@@ -374,7 +374,7 @@ button:focus {
     color: #ffffff;
 }
 .intro-section {
-    background: url(../../images/homepage.png) no-repeat center bottom fixed;  /*background/st.gif */
+    background: url(../../images/Homepage.png) no-repeat center bottom fixed;  /*background/st.gif */
     background-size: cover;
     color: #ffffff;
     height:150px;
